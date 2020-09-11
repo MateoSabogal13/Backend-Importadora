@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('login',    'AuthController@authenticateProveedor');
 
-// Proveedores
+
+// Rutas estudiantes
 Route::group(['namespace' => 'Estudiantes'], function()
 {
     Route::get('get_estudiantes' ,'EstudianteController@index');
