@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-// Rutas estudiantes
+// Rutas estudiantes.
 Route::group(['namespace' => 'Estudiantes'], function()
 {
     Route::get('get_estudiantes' ,'EstudianteController@index');
